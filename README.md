@@ -1,11 +1,11 @@
 # Lesson 23 – Final Project: Weather Web App 🌦️
-
+![App Screenshot](images/image2.png)
 ## What I Did
 - Built a **Python Flask web app** to fetch and display current weather conditions.
 - Connected to the **OpenWeatherMap API** with an API key stored securely in a `.env` file (loaded using `python-dotenv`).
 - Structured the project into clear parts:
   - **`weather.py`** → Handles API requests and returns JSON data.
-  - **`app.py`** → Flask routes and application logic.
+  - **`server.py`** → Flask routes and application logic.
   - **Templates** → `index.html` (input form), `weather.html` (results), `city-not-found.html` (error page).
   - **Static files** → CSS styles for frontend design.
 - Used **Waitress** WSGI server for running the app (instead of Flask’s default development server).
@@ -23,7 +23,7 @@
    - For valid cities:
      - Extracts data (status, temperature, feels-like).
      - Passes data into `weather.html` template for display.
-3. App is served locally with Waitress on port **8000**.
+3. App was served locally with Waitress on port **8000**. Now available using the link below.
 
 ---
 
@@ -49,10 +49,6 @@ It gave me my **first taste of a real full-stack app**. While simple, it demonst
 
 This was a solid capstone for the course and a great foundation for more complex web apps.
 
----
+## Website Link
 
-## 🚀 How to Run
-1. Clone the repo and enter the folder:
-   ```bash
-   git clone https://github.com/hkeays09/Python-Beginner-Course.git
-   cd Python-Beginner-Course/Lesson23-FinalProject
+`https://python-weather-mzwi.onrender.com`
